@@ -19,7 +19,7 @@ public class BoardController {
 	private final BoardService boardService;
 
 
-	//게시판 목록
+	//게시글 목록
 	@GetMapping
 	public List<BoardListDto> boardList() {
 		return boardService.boardList();
