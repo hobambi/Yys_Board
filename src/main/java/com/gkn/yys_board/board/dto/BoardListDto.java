@@ -7,7 +7,6 @@ import com.gkn.yys_board.board.entity.Board;
 import lombok.Getter;
 
 // 게시글 목록 Dto
-@Getter
 public class BoardListDto {
 
 	private String title;
